@@ -8,6 +8,6 @@ public class Main {
         Stall stall = new Stall();
         List<IceCream> iceCreams = stall.createIceCream();
         menu menu = new menu();
-        menu.showIceCream(iceCreams);
+        menu.showIceCreamWithCost(iceCreams);
     }
 }
