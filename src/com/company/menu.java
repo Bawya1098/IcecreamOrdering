@@ -3,7 +3,7 @@ package com.company;
 import java.util.List;
 
 class menu {
-    void display(List<IceCream> iceCreams) {
+    void showIceCream(List<IceCream> iceCreams) {
         System.out.printf("%45s", "MENU");
         System.out.println();
         System.out.println("\t\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
