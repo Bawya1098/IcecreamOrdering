@@ -27,4 +27,17 @@ public class Stall {
         }
         return iceCreamList;
     }
+
+    public int calculatecost(String userIceCream) {
+        int cost = 0;
+        for (IceCream ice : iceCreamList) {
+            if (cost == 0) {
+                cost = ice.checkIcecream(userIceCream);
+            } else {
+                return cost;
+            }
+        }
+        return cost;
+    }
 }
+

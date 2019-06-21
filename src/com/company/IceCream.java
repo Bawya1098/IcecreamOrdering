@@ -13,6 +13,14 @@ public class IceCream {
 
     @Override
     public String toString() {
-        return type + " " + flavour + "\t\t\t\t" + cost;
+        return type + " " + flavour + " " + cost;
+    }
+
+    public int checkIcecream(String userIceCream) {
+        String iceCream = type + " " + flavour;
+        if ((iceCream).equalsIgnoreCase(userIceCream)) {
+            return cost;
+        }
+        return 0;
     }
 }
