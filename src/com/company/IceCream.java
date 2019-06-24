@@ -16,11 +16,12 @@ public class IceCream {
         return type + " " + flavour + " " + cost;
     }
 
-    public int checkIcecream(String userIceCream) {
-        String iceCream = type + " " + flavour;
-        if ((iceCream).equalsIgnoreCase(userIceCream)) {
-            return cost;
-        }
-        return 0;
+    public String checkIcecream() {
+        return type + " " + flavour;
     }
+
+    public int getCost() {
+        return cost;
+    }
+
 }
